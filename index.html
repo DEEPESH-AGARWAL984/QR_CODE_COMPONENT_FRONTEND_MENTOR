@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front_End_Mentor_QR_Code(Deepesh Agarwal)</title>
+
+    <!-- ==============================Link for inserting favicon=========================================== -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+</head>
+
+<!-- =========================================Complete Css============================================= -->
+<style>
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(218, 52%, 80%);
+        font-weight: 500;
+        overflow: hidden;
+    }
+
+    .qr_card{
+        margin: 100px 600px;
+        padding: 20px;
+        display: block;
+        width: min-content;
+        background-color: hsl(0, 0%, 100%);
+        color: #000;
+        border-radius:10px;
+        box-shadow: 0 4px 8px 0 hsl(217, 57%, 63%);
+    }
+
+    .qr_card p{
+        font-size: 15px;
+        color:  hsl(212, 30%, 50%);
+    }
+
+    .qr_card h4{
+        font-weight: bolder;
+    }
+
+    .qr_card img{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    /* For Phones screen size >= 320px */
+    @media only screen and (min-width:300px){
+        .qr_card{
+            margin: 100px 50px;
+            padding: 20px;
+        } 
+        .qr_card img{
+            height:200px;
+            width:200px;
+        }
+        .attribution{ 
+            font-size: 12px; 
+            text-align: center;
+        }
+        .attribution a{ 
+            color: hsl(228, 45%, 44%);
+        }
+    }
+
+    /* For Phones screen size >= 600px */
+    @media only screen and (min-width:600px){
+        .qr_card{
+            margin: 100px 100px;
+            padding: 20px;
+        } 
+        .qr_card img{
+            height:220px;
+            width:220px;
+        }
+        .attribution{ 
+            font-size: 14px; 
+            text-align: center; 
+        }
+        .attribution a{ 
+            color: hsl(228, 45%, 44%);
+        }
+    }
+
+    /* For Phones screen size >= 900px */
+    @media only screen and (min-width:900px){
+        .qr_card{
+            margin: 100px 300px;
+            padding: 20px;
+        } 
+        .qr_card img{
+            height:250px;
+            width:250px;
+        }
+
+        .attribution { 
+            font-size: 18px;
+            text-align: center;
+        }
+        .attribution a { 
+            color: hsl(228, 45%, 44%);
+        }
+    }
+
+    /* For Phones screen size >= 1200px */
+     @media only screen and (min-width:1200px){
+        .qr_card{
+            margin: 100px 600px;
+            padding: 20px;
+        } 
+        .qr_card img{
+            width: 300px;
+            height: 300px;
+        }
+        .attribution{ 
+            font-size: 20px; 
+            text-align: center; 
+        }
+        .attribution a{ 
+            color: hsl(228, 45%, 44%); 
+        }
+    }
+
+    .attribution{ 
+        font-size: 20px;
+        text-align: center;
+    }
+    .attribution a{ 
+        color: hsl(228, 45%, 44%);
+    }
+
+</style>
+<body>
+
+    <div class = "qr_card">
+        <img src="images\image-qr-code.png" alt="QR Code Image">
+        <h4>Improve your front-end skills by building projects</h4>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level.
+        </p>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/DEEPESH-AGARWAL984">DEEPESH AGARWAL</a>.
+    </div>
+
+</body>
+</html>
